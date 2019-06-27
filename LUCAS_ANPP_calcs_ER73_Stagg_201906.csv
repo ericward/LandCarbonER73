@@ -1,4 +1,4 @@
-Site.ID,Transect,Event,Year,Month,Plot.Area.m2,Live Biomass.g,Dead Biomass.g,Live Change.g,Dead Change.g,Interval Production.g,Sum.Intervals.g,Total.ANPP. g.m-2.y-1
+Site.ID,Transect,Event,Year,Month,Plot.Area.m2,Live Biomass.g,Dead Biomass.g,Live Change.g,Dead Change.g,Interval Production.g,Sum.Intervals.g,Total.ANPP.g.m-2.y-1
 BA-01-04,1,T1,2012,06,0.25,147.67,172.02,-9.11,-58.3,0,416.407,832.814
 BA-01-04,1,T2,2012,10,0.25,138.56,113.72,-63.6,172.53,108.93,NA,NA
 BA-01-04,1,T3,2013,02,0.25,74.96,286.25,103.857,-103.353,103.857,NA,NA
