@@ -1,4 +1,4 @@
-Site ID,Wetland Type (Stagg),Wetland Subclass (LUCAS),Transect,Year,Aboveground NPP ,Belowground NPP,Aboveground Mortality,Belowground Mortality ,AGVF.annual.percent.loss,BGVF.annual.percent.loss,AGVF.percent.lignin,BGVF.percent.lignin,Foliage Live  Stock,Fine Roots Live Stock,AGVF.DOM.Stock,BGVF.DOM.Stock
+Site ID,Wetland Type Stagg,Wetland Subclass LUCAS,Transect,Year,Aboveground NPP ,Belowground NPP,Aboveground Mortality,Belowground Mortality ,AGVF.annual.percent.loss,BGVF.annual.percent.loss,AGVF.percent.lignin,BGVF.percent.lignin,Foliage Live Stock,Fine Roots Live Stock,AGVF.DOM.Stock,BGVF.DOM.Stock
 211,1,Palustrine Herbaceous,1,1,857.3805624,1399.949725,691.4244886,2529.704087,NA,NA,NA,NA,432.8168061,368.7040892,289.0728209,862.8332955
 211,1,Palustrine Herbaceous,2,1,687.3161421,1824.756879,552.713694,1649.505164,NA,NA,NA,NA,399.0913159,677.1771287,176.542572,630.9139873
 211,1,Palustrine Herbaceous,3,1,426.4231596,1906.003124,403.1771556,2030.405572,NA,NA,NA,NA,283.6317192,405.2930446,212.9562233,848.2288051
