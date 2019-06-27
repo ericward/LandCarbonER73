@@ -1,4 +1,4 @@
-Site.ID,Transect,Event,Year,Month,Core.Area.m2,Depth,Live.Roots.g,Dead.Roots.g,Dead. Macro.Organic.g,Live.Change.g,Dead.Change.g,Interval.Production.g,Sum.Intervals.g,Total NAPP.g.m-2.y-1
+Site.ID,Transect,Event,Year,Month,Core.Area.m2,Depth,Live.Roots.g,Dead.Roots.g,Dead.Macro.Organic.g,Live.Change.g,Dead.Change.g,Interval.Production.g,Sum.Intervals.g,Total NAPP.g.m-2.y-1
 BA-01-04,1,T1,2012,06,0.00785,A 0-7.5,8.05,4.55,4.5,22.76,-2.02,22.76,44.25,2818.47
 BA-01-04,1,T2,2012,10,0.00785,A 0-7.5,30.81,2.53,3.01,-28.77,0.04,0,NA,NA
 BA-01-04,1,T3,2013,02,0.00785,A 0-7.5,2.04,2.57,3.37,11.63,1.6,13.23,NA,NA
