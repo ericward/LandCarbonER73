@@ -42,12 +42,12 @@ ANPPsites<-unique(ANPP[,1])
 ANPPannual<-matrix(NA,length(ANPPsites)*5,4)
 for(i in 1:length(ANPPsites)){
   xx<-which(ANPP[,1]==ANPPsites[i]&(ANPP$Event=='T3'|ANPP$Event=='T4'|ANPP$Event=='T5'|ANPP$Event=='T6'))
-  ANPPannual[((i-1)*5+1):((i-1)*5+5),1]<-ANPP[xx[1],1]
+  ANPPannual[((i-1)*5+1):((i-1)*5+5),1]<-as.character(ANPP[xx[1],1])
   ANPPannual[((i-1)*5+1):((i-1)*5+5),2]<-ANPPtype[xx[1]]
   for(j in 1:5){
     ANPPannual[((i-1)*5+j),3]<-j  
     xxx<-which(ANPP[,1]==ANPPsites[i]&(ANPP$Event=='T3'|ANPP$Event=='T4'|ANPP$Event=='T5'|ANPP$Event=='T6')&as.numeric(ANPP[,2])==j)
-    ANPPannual[((i-1)*5+j),4]<-sum(as.numeric(ANPP$Interval.Production.g[xxx]))
+    ANPPannual[((i-1)*5+j),4]<-sum(as.numeric(ANPP$Interval.Production.g[xxx])/as.numeric(ANPP$Plot.Area.m2[xxx])*.5)
   }
 }
 
@@ -55,12 +55,12 @@ BNPPsites<-unique(BNPP[,1])
 BNPPannual<-matrix(NA,length(BNPPsites)*5,4)
 for(i in 1:length(BNPPsites)){
   xx<-which(BNPP[,1]==BNPPsites[i]&(BNPP$Event=='T3'|BNPP$Event=='T4'|BNPP$Event=='T5'|BNPP$Event=='T6'))
-  BNPPannual[((i-1)*5+1):((i-1)*5+5),1]<-BNPP[xx[1],1]
+  BNPPannual[((i-1)*5+1):((i-1)*5+5),1]<-as.character(BNPP[xx[1],1])
   BNPPannual[((i-1)*5+1):((i-1)*5+5),2]<-BNPPtype[xx[1]]
   for(j in 1:5){
     BNPPannual[((i-1)*5+j),3]<-j  
     xxx<-which(BNPP[,1]==BNPPsites[i]&(BNPP$Event=='T3'|BNPP$Event=='T4'|BNPP$Event=='T5'|BNPP$Event=='T6')&as.numeric(BNPP[,2])==j)
-    BNPPannual[((i-1)*5+j),4]<-sum(as.numeric(BNPP$Interval.Production.g[xxx]))
+    BNPPannual[((i-1)*5+j),4]<-sum(as.numeric(BNPP$Interval.Production.g[xxx])/as.numeric(BNPP$Core.Area.m2[xxx])*.5)
   }
 }
 
