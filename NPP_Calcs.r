@@ -64,8 +64,8 @@ for(i in 1:length(BNPPsites)){
   }
 }
 
-colnames(ANPPannual)<-c('Site','Wetland_Type','Transect','ANPP.g')
-colnames(BNPPannual)<-c('Site','Wetland_Type','Transect','BNPP.g')
+colnames(ANPPannual)<-c('Site','Wetland_Type','Transect','ANPP.g.m-2.y-1')
+colnames(BNPPannual)<-c('Site','Wetland_Type','Transect','BNPP.g.m-2.y-1')
 
 write.csv(ANPPannual,'ANPPannual.csv',row.names=F)
 write.csv(BNPPannual,'BNPPannual.csv',row.names=F)
