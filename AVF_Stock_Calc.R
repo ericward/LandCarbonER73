@@ -11,5 +11,5 @@ for(i in 1:length(ANPPsites)){
   }
 }
 
-colnames(AL)<-c('Site','Wetland_Type','Transect','AboveDead.g.m-2.y-1')
+colnames(AL)<-c('Site','Wetland_Type','Transect','AboveDead.g.m-2')
 write.csv(AL,'AbovegroundVF.csv',row.names=F)

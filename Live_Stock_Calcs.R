@@ -24,8 +24,8 @@ for(i in 1:length(BNPPsites)){
   }
 }
 
-colnames(AL)<-c('Site','Wetland_Type','Transect','AboveLive.g.m-2.y-1')
-colnames(BL)<-c('Site','Wetland_Type','Transect','BelowLive.g.m-2.y-1')
+colnames(AL)<-c('Site','Wetland_Type','Transect','AboveLive.g.m-2')
+colnames(BL)<-c('Site','Wetland_Type','Transect','BelowLive.g.m-2')
 
 write.csv(AL,'AbovegroundLive.csv',row.names=F)
 write.csv(BL,'BelowgroundLive.csv',row.names=F)
